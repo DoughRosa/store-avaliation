@@ -53,6 +53,6 @@ user1.addToCart(produto1);
 user1.addToCart(produto2);
 // user1.removefromCart(produto1);
 
-console.log(user1.showUserDetails());
+const details = produtoPromo.showDetail();
 
-console.log(produto1.showProductsDetails());
+console.log(details);

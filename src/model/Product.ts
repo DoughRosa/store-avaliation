@@ -39,12 +39,12 @@ class Product {
     });
   }
 
-  showProductsDetails() {
-    const detail = this.show;
+  showDetail() {
+    const detail = this.show();
 
     const commentsProduct = this.showComments();
 
-    return {... detail, comments: commentsProduct};
+    return { ...detail, comments: commentsProduct };
   }
 
   comment(comment: CommentClass) {
